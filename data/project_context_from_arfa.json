@@ -1,0 +1,20 @@
+{
+  "proj-agiliro-001": {
+    "product_goal": "Enable small Agile teams to turn unstructured meeting discussion into a traceable, evidence-grounded Product Backlog without displacing human Product Owner authority over vision, ordering, and acceptance.",
+    "team_constraints": {
+      "definition_of_ready": [
+        "value_articulated",
+        "acceptance_criteria_present",
+        "estimated_by_developers",
+        "no_unresolved_external_dependency"
+      ],
+      "max_story_points_per_item": 8,
+      "sprint_length_days": 10
+    },
+    "existing_backlog_titles": [
+      "Allow users to reset their password via email",
+      "Add CSV export for monthly usage reports",
+      "Support SSO login via Google Workspace"
+    ]
+  }
+}
