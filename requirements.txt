@@ -5,3 +5,5 @@ sqlalchemy>=2.0
 alembic>=1.13
 langgraph>=0.2
 langchain-core>=0.3
+psycopg2-binary>=2.9   # Postgres driver — required for DATABASE_URL pointing at Neon/Postgres
+python-dotenv>=1.0     # loads .env into os.environ so DATABASE_URL etc. are picked up locally
